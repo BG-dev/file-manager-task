@@ -19,3 +19,31 @@ export function displayInvalidCommand() {
 export function displayFail(message) {
     console.log(`Operation failed: ${message}${EOL}`)
 }
+
+export function displayInvalidInput() {
+    console.log(`Invalid input ${EOL}`)
+}
+
+export function displayUnable() {
+    console.log(`Unable to perform command ${EOL}`)
+}
+
+export function displayFileExist(){
+    console.log(`File already exist ${EOL}`)
+}
+
+export function displayFileCreated(file){
+    console.log(`File ${file} created successfully ${EOL}`)
+}
+
+export function displayFileRenamed(file){
+    console.log(`File ${file} renamed successfully ${EOL}`)
+}
+
+export function displayFileProcessed (operation, file){
+    console.log(`${operation} on ${file} was successful`)
+}
+
+export function displayUserOutput(option){
+    console.log(option)
+}
